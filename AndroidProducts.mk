@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/aosp_alphaplus.mk
+    $(LOCAL_DIR)/aosp_alphalm.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_alphaplus-userdebug \
-    aosp_alphaplus-eng \
-    aosp_alphaplus-user
+    aosp_alphalm-userdebug \
+    aosp_alphalm-eng \
+    aosp_alphalm-user
