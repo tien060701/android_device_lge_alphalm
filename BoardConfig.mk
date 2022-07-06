@@ -16,7 +16,7 @@
 
 BOARD_VENDOR := lge
 
-DEVICE_PATH := device/lge/alphaplus
+DEVICE_PATH := device/lge/alphalm
 
 # APEX
 OVERRIDE_TARGET_FLATTEN_APEX := true
@@ -228,4 +228,4 @@ QC_WIFI_HIDL_FEATURE_DUAL_AP := true
 # Inherit from the proprietary version
 -include vendor/lge/sm8150-common/BoardConfigVendor.mk
 -include vendor/lge/alpha-common/BoardConfigVendor.mk
--include vendor/lge/alphaplus/BoardConfigVendor.mk
+-include vendor/lge/alphalm/BoardConfigVendor.mk
